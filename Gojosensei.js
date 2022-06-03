@@ -243,13 +243,13 @@ const reply = (teks) => {
 	  //antilink\\
         if (db.data.chats[m.chat].antilink) {
         if (budy.match(`chat.whatsapp.com`)) {
-        reply(`「 ANTI LINK 」\n\nපලයන් යන්න 😒 තව කාටහරි Link දාන්න ඕනිද !`)
+        reply(`「 ANTI LINK 」\n\nGroup Link දැම්මොත් රිමු කරනවා 😒 !`)
         if (!isBotAdmins) return reply(`Admin දීපන් බොසා 😒`)
         let gclink = (`https://chat.whatsapp.com/`+await GojoMdNx.groupInviteCode(m.chat))
         let isLinkThisGc = new RegExp(gclink, 'i')
         let isgclink = isLinkThisGc.test(m.text)
         if (isgclink) return reply(`අඩෝ අඩෝ තව ටිකෙන් රිමු කරනවා 😉, අපේ Group එකේ Link එක නිසා බේරුනා❤️`)
-        if (isAdmins) return reply(`ඊලඟ පාරනම් ගෙදර යවනවා 😉, Admin නිසා අතාරිනවා❤️`)
+        if (isAdmins) return reply(`අඩේ බොසා 😉, Admin නේද❤️`)
         if (isCreator) return reply(`ආ බොසා 😉, මොකෝ මේ ලින්ක් දාන්නෙ🤣😘, මාව හදපු කෙනා රිමු කරන්නැ මම🐦`)
         GojoMdNx.groupParticipantsUpdate(m.chat, [m.sender], 'remove')
         }
