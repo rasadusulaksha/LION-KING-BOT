@@ -1492,16 +1492,16 @@ let teks = `╚»˙·٠•●♥ Tag All ♥●•٠·˙«╝
             devote = vote[m.chat][2]
             teks_vote = `*「 VOTE 」*
 
-*Reason:* ${vote[m.chat][0]}
+*හේතුව:* ${vote[m.chat][0]}
 
-┌〔 UPVOTE 〕
+┌〔 කැමති 〕
 │ 
 ┃╠ Total: ${vote[m.chat][1].length}
 │
 │ 
 └────
 
-┌〔 DEVOTE 〕
+┌〔 අකමැති 〕
 │ 
 ┃╠ Total: ${vote[m.chat][2].length}
 │
@@ -1510,8 +1510,8 @@ let teks = `╚»˙·٠•●♥ Tag All ♥●•٠·˙«╝
 
 *${prefix}delvote* - To Delete Vote Session`
 let buttonsVote = [
-  {buttonId: `${prefix}upvote`, buttonText: {displayText: 'Upvote'}, type: 1},
-  {buttonId: `${prefix}devote`, buttonText: {displayText: 'Devote'}, type: 1}
+  {buttonId: `${prefix}upvote`, buttonText: {displayText: 'කැමතියි'}, type: 1},
+  {buttonId: `${prefix}devote`, buttonText: {displayText: 'අකමැතියි'}, type: 1}
 ]
 
             let buttonMessageVote = {
@@ -1533,16 +1533,16 @@ let buttonsVote = [
             menvote = vote[m.chat][1].concat(vote[m.chat][2])
             teks_vote = `*「 VOTE 」*
 
-*Reason:* ${vote[m.chat][0]}
+*හේතුව:* ${vote[m.chat][0]}
 
-┌〔 UPVOTE 〕
+┌〔 කැමති 〕
 │ 
 ┃╠ Total: ${vote[m.chat][1].length}
 ${vote[m.chat][1].map((v, i) => `┃╠ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
 │ 
 └────
 
-┌〔 DEVOTE 〕
+┌〔 අකමැති 〕
 │ 
 ┃╠ Total: ${vote[m.chat][2].length}
 ${vote[m.chat][2].map((v, i) => `┃╠ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
@@ -1551,8 +1551,8 @@ ${vote[m.chat][2].map((v, i) => `┃╠ ${i + 1}. @${v.split`@`[0]}`).join('\n')
 
 *${prefix}delvote* - To Delete Vote Session`
             let buttonsUpvote = [
-              {buttonId: `${prefix}upvote`, buttonText: {displayText: 'Upvote'}, type: 1},
-              {buttonId: `${prefix}devote`, buttonText: {displayText: 'Devote'}, type: 1}
+              {buttonId: `${prefix}upvote`, buttonText: {displayText: 'කැමති'}, type: 1},
+              {buttonId: `${prefix}devote`, buttonText: {displayText: 'අකමැති'}, type: 1}
             ]
 
             let buttonMessageUpvote = {
@@ -1575,16 +1575,16 @@ ${vote[m.chat][2].map((v, i) => `┃╠ ${i + 1}. @${v.split`@`[0]}`).join('\n')
             menvote = vote[m.chat][1].concat(vote[m.chat][2])
             teks_vote = `*「 VOTE 」*
 
-*Reason:* ${vote[m.chat][0]}
+*හේතුව:* ${vote[m.chat][0]}
 
-┌〔 UPVOTE 〕
+┌〔 කැමති 〕
 │ 
 ┃╠ Total: ${vote[m.chat][1].length}
 ${vote[m.chat][1].map((v, i) => `┃╠ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
 │ 
 └────
 
-┌〔 DEVOTE 〕
+┌〔 අකමැති 〕
 │ 
 ┃╠ Total: ${vote[m.chat][2].length}
 ${vote[m.chat][2].map((v, i) => `┃╠ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
@@ -1593,8 +1593,8 @@ ${vote[m.chat][2].map((v, i) => `┃╠ ${i + 1}. @${v.split`@`[0]}`).join('\n')
 
 *${prefix}delvote* - To Delete Vote Session`
             let buttonsDevote = [
-              {buttonId: `${prefix}upvote`, buttonText: {displayText: 'Upvote'}, type: 1},
-              {buttonId: `${prefix}devote`, buttonText: {displayText: 'Devote'}, type: 1}
+              {buttonId: `${prefix}upvote`, buttonText: {displayText: 'කැමතියි'}, type: 1},
+              {buttonId: `${prefix}devote`, buttonText: {displayText: 'අකමැතියි'}, type: 1}
             ]
 
             let buttonMessageDevote = {
@@ -1613,16 +1613,16 @@ if (!m.isGroup) return replay(`${mess.group}`)
 if (!(m.chat in vote)) return replay(`_*No Voting In This Group!*_\n\n*${prefix}vote* - To Start Voting`)
 teks_vote = `*「 VOTE 」*
 
-*Reason:* ${vote[m.chat][0]}
+*හේතුව:* ${vote[m.chat][0]}
 
-┌〔 UPVOTE 〕
+┌〔 කැමති 〕
 │ 
 ┃╠ Total: ${upvote.length}
 ${vote[m.chat][1].map((v, i) => `┃╠ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
 │ 
 └────
 
-┌〔 DEVOTE 〕
+┌〔 අකමැති 〕
 │ 
 ┃╠ Total: ${devote.length}
 ${vote[m.chat][2].map((v, i) => `┃╠ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
@@ -1776,7 +1776,7 @@ break
                                     id: 'owner'
                                 }
                             }]
-                      let txt = `「 GOJO-SATORU HERE🎉 」\n\n${text}`
+                      let txt = `「 BUDDHI BOT HERE🎉 」\n\n${text}`
                       GojoMdNx.send5ButImg(i, txt, GojoMdNx.user.name, global.thumb, btn)
                     }
                 reply(`Successful Sending Broadcast To ${anu.length} Group(s)`)
@@ -1810,7 +1810,7 @@ break
                                     id: 'owner'
                                 }
                             }]
-                      let txt = `「 GOJO-SATORU HERE 🎉」\n\n${text}`
+                      let txt = `「 BUDDHI BOT HERE 🎉」\n\n${text}`
                       GojoMdNx.send5ButImg(yoi, txt, GojoMdNx.user.name, global.thumb, btn)
 		}
 		reply('Broadcast Success')
@@ -2075,7 +2075,7 @@ break
         })
         }
         break
-	    case 'play': case 'song': case 'ytplay': {
+	    case 'play': case 'song': case 'yt': {
                 if (!text) return reply(`Example : ${prefix + command} Stay`)
                 let yts = require("yt-search")
                 let search = await yts(text)
