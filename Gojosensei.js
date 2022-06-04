@@ -2087,16 +2087,16 @@ break
                 let buttonMessage = {
                     image: { url: anu.thumbnail },
                     caption: `
-🇱🇰 Title : ${anu.title}
-🇱🇰 Ext : Search
-🇱🇰 ID : ${anu.videoId}
-🇱🇰 Duration : ${anu.timestamp}
-🇱🇰 Viewes : ${anu.views}
-🇱🇰 Uploaded On : ${anu.ago}
-🇱🇰 Author : ${anu.author.name}
-🇱🇰 Channel : ${anu.author.url}
-🇱🇰 Description : ${anu.description}
-🇱🇰 Url : ${anu.url}`,
+🚀 Title : ${anu.title}
+🚀 Ext : Search
+🚀 ID : ${anu.videoId}
+🚀 Duration : ${anu.timestamp}
+🚀 Viewes : ${anu.views}
+🚀 Uploaded On : ${anu.ago}
+🚀 Author : ${anu.author.name}
+🚀 Channel : ${anu.author.url}
+🚀 Description : ${anu.description}
+🚀 Url : ${anu.url}`,
                     footer: GojoMdNx.user.name,
                     buttons: buttons,
                     headerType: 4
