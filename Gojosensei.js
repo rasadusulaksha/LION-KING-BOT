@@ -3539,104 +3539,110 @@ case 'allmenu': {
   	anu = `
 ┏━「 *${botname}* 」━━⭓ 
 ┃╔══☯︎「 MAIN 」☯︎
-📝විධානය: alive
+📘විධානය: alive
 📖විස්තරය: Bot Online දැයි බැලීමට
 
-📝විධානය: script
+📘විධානය: script
 📖විස්තරය: Bot Script එක බැලීමට
 
-📝විධානය: speedtest
+📘විධානය: speedtest
 📖විස්තරය: වේගය බැලීමට
 
-📝විධානය: ping
+📘විධානය: ping
 📖විස්තරය: ping එක මැනීමට
 
-📝විධානය: owner
+📘විධානය: owner
 📖විස්තරය: අයිතිකරුගේ අංකය ගැනීමට
 
-📝විධානය: menu
+📘විධානය: menu
 📖විස්තරය:
 
-📝විධානය: delete
+📘විධානය: delete
 📖විස්තරය:
 
-📝විධානය: chatinfo
+📘විධානය: chatinfo
 📖විස්තරය:
 
-📝විධානය: quoted
+📘විධානය: quoted
 📖විස්තරය:
 
-📝විධානය: listpc
+📘විධානය: listpc
 📖විස්තරය:
 
-📝විධානය: listgc
+📘විධානය: listgc
 📖විස්තරය:
 
-📝විධානය: donate
+📘විධානය: donate
 📖විස්තරය:
 
-📝විධානය: report [Bug]
+📘විධානය: report [Bug]
 📖විස්තරය:
-┃╠══✪「 OWNER 」 ☯︎
-┃╠ ${prefix}chat [option]
-┃╠ ${prefix}join [link]
-┃╠ ${prefix}leave
-┃╠ ${prefix}block [user]
-┃╠ ${prefix}unblock [user]
-┃╠ ${prefix}bcgroup [text]
-┃╠ ${prefix}bcall [text]
-┃╠ ${prefix}setppbot [image]
-┃╠ ${prefix}setexif
+
+*┃╠══✪「 OWNER 」 ☯︎*
+📘විධානය: chat [option]
+📘විධානය: join [link]
+📘විධානය: leave
+📘විධානය: block [user]
+📘විධානය: unblock [user]
+📘විධානය: bcgroup [text]
+📘විධානය: bcall [text]
+📘විධානය: setppbot [image]
+📘විධානය: setexif
+
 ┃╠══✪「 GROUP 」 ☯︎      
-┃╠${prefix}grouplink
-┃╠${prefix}ephemeral [option]
-┃╠${prefix}setgcpp [image]
-┃╠${prefix}setname [text]
-┃╠${prefix}setdesc [text]
-┃╠${prefix}group [text]
-┃╠${prefix}editinfo [option]
-┃╠${prefix}add [user]
-┃╠${prefix}kick [reply/tag]
-┃╠${prefix}hidetag [text]
-┃╠${prefix}tagall [text]
-┃╠${prefix}antilink [on/off]
-┃╠${prefix}mute [on/off]
-┃╠${prefix}promote [reply/tag]
-┃╠${prefix}demote [reply/tag]
-┃╠${prefix}vote
-┃╠${prefix}devote
-┃╠${prefix}upvote
-┃╠${prefix}checkvote
-┃╠${prefix}delvote
+📘විධානය: grouplink
+📘විධානය: ephemeral [option]
+📘විධානය: setgcpp [image]
+📘විධානය: setname [text]
+📘විධානය: setdesc [text]
+📘විධානය: group [text]
+📘විධානය: editinfo [option]
+📘විධානය: add [user]
+📘විධානය: kick [reply/tag]
+📘විධානය: hidetag [text]
+📘විධානය: tagall [text]
+📘විධානය: antilink [on/off]
+📘විධානය: mute [on/off]
+📘විධානය: promote [reply/tag]
+📘විධානය: demote [reply/tag]
+📘විධානය: vote
+📘විධානය: devote
+📘විධානය: upvote
+📘විධානය: checkvote
+📘විධානය: delvote
+
 ┃╠══☯︎「 RPG 」 ☯︎
-┃╠${prefix}hunting
-┃╠${prefix}mining
-┃╠${prefix}heal
-┃╠${prefix}userlimit
-┃╠${prefix}profile
-┃╠${prefix}inventory
-┃╠${prefix}leaderboard
-┃╠${prefix}buy [option]
-┃╠${prefix}sell [option]
+📘විධානය: hunting
+📘විධානය: mining
+📘විධානය: heal
+📘විධානය: userlimit
+📘විධානය: profile
+📘විධානය: inventory
+📘විධානය: leaderboard
+📘විධානය: buy [option]
+📘විධානය: sell [option]
+
 ┃╠═✪「 DOWNLOADER 」☯︎
-┃╠${prefix}ytmp3 [url|quality]
-┃╠${prefix}ytmp4 [url|quality]
-┃╠${prefix}umma [query]
-┃╠${prefix}joox [query]
-┃╠${prefix}soundcloud [url]
+📘විධානය: ytmp3 [url|quality]
+📘විධානය: ytmp4 [url|quality]
+📘විධානය: umma [query]
+📘විධානය: joox [query]
+📘විධානය: soundcloud [url]
+
 ┃╠══✪「 SEARCHER 」 ☯︎
-┃╠${prefix}play [query]
-┃╠${prefix}song [query]
-┃╠${prefix}yt [query]
-┃╠${prefix}video [query]
-┃╠${prefix}google [query]
-┃╠${prefix}gimage [query]
-┃╠${prefix}pinterest [query]
-┃╠${prefix}wallpaper [query]
-┃╠${prefix}wikimedia [query]
-┃╠${prefix}ytsearch [query]
-┃╠${prefix}ringtone [query]
-┃╠${prefix}webtoon [query]
+📘විධානය: play [query]
+📘විධානය: song [query]
+📘විධානය: yt [query]
+📘විධානය: video [query]
+📘විධානය: google [query]
+📘විධානය: gimage [query]
+📘විධානය: pinterest [query]
+📘විධානය: wallpaper [query]
+📘විධානය: wikimedia [query]
+📘විධානය: ytsearch [query]
+📘විධානය: ringtone [query]
+📘විධානය: webtoon [query]
+
 ┃╠══✪「 RANDOM 」☯︎
 ┃╠${prefix}coffee
 ┃╠${prefix}animequote (indo)
