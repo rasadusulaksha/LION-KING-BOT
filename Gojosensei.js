@@ -2145,25 +2145,7 @@ break
                 if (media.filesize >= 100000) return reply('File Over Limit '+util.format(media))
                 GojoMdNx.sendMessage(m.chat, { video: { url: media.dl_link }, mimetype: 'video/mp4', fileName: `${media.title}.mp4`, caption: `🐦 Title : ${media.title}\n🐦 File Size : ${media.filesizeF}\n🐦 Url : ${urls[text - 1]}\n🐦 Ext : MP3\n🐦 Resolution : ${args[1] || '360p'}` }, { quoted: m })
             }
-		      break
-            case 'tiktok': {
-                if (!text) throw 'Enter Query Link!'
-                replay(mess.wait)
-                let anu = await fetchJson(api('zenz', '/downloader/tiktok', { url: text }, 'apikey'))
-                let buttons = [
-                    {buttonId: `tiktoknowm ${text}`, buttonText: {displayText: '🎥Video🎥'}, type: 1},
-                    {buttonId: `tiktokmp3 ${text}`, buttonText: {displayText: '🎵Audio🎵'}, type: 1}
-                ]
-                let buttonMessage = {
-                    video: { url: anu.result.watermark },
-                    caption: `Download From ${text}`,
-                    footer: 'Press The Button Below',
-                    buttons: buttons,
-                    headerType: 5
-                }
-                GojoMdNx.sendMessage(m.chat, buttonMessage, { quoted: m })
-            }
-            break
+	    break
             case 'pinterest': {
                 reply(mess.wait)
 		let { pinterest } = require('./lib/scraper')
