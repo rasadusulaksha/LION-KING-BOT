@@ -1651,7 +1651,13 @@ case 'webtonsearch': case 'webtoon':
                 let msg = await GojoMdNx.sendMessage(m.chat, buttonMessage, { quoted: m })
                 GojoMdNx.sendMessage(m.chat, { audio: { url: anu.result.audio } }, { quoted: msg })
             }
-           
+            break
+	        case 'fbdlx': case 'fbx': case 'facebookx': {
+                if (!text) return reply(`Enter Query Link!`)
+                reply(mess.wait)
+                let anu = await fetchJson(api('zenz', '/api/downloader/facebook', { url: text }, 'apikey'))
+                GojoMdNx.sendMessage(m.chat, { video: { url: anu.result.url }, caption: `🐦 Title : ${anu.result.title}`}, { quoted: m })
+            }
             break
 	        case 'pindl': case 'pinterestdl': {
                 if (!text) return reply(`Enter Query Link!`)
@@ -1787,6 +1793,117 @@ View List Of Messages With ${prefix}listmsg`)
 		reply(`Delete Successfully '${text}' From The Message list`)
             }
 	    break
+	    case 'anonymous': {
+                if (m.isGroup) return reply('Features Cannot Be Used For Groups!')
+				this.anonymous = this.anonymous ? this.anonymous : {}
+				let buttons = [
+                    { buttonId: 'Start', buttonText: { displayText: '🚶Start🚶' }, type: 1 }
+                ]
+                GojoMdNx.sendButtonText(m.chat, buttons, `\`\`\`Hi ${await GojoMdNx.getName(m.sender)} Welcome To Anonymous Chat\n\nClick The Button Below To Find A Partner\`\`\``, GojoMdNx.user.name, m)
+            }
+			break
+            case 'keluar': case 'leave': {
+                if (m.isGroup) return reply('Features Cannot Be Used For Groups!')
+                this.anonymous = this.anonymous ? this.anonymous : {}
+                let room = Object.values(this.anonymous).find(room => room.check(m.sender))
+                if (!room) {
+                    let buttons = [
+                        { buttonId: 'start', buttonText: { displayText: '🚶Start🚶' }, type: 1 }
+                    ]
+                    await GojoMdNx.sendButtonText(m.chat, buttons, `\`\`\`You Are Not In An Anonymous Session, Press The Button To Find A Partner \`\`\``)
+                   reply(false)
+                }
+                reply('Ok')
+                let other = room.other(m.sender)
+                if (other) await GojoMdNx.sendText(other, `\`\`\`Partner Has Left Anonymous Session\`\`\``, m)
+                delete this.anonymous[room.id]
+                if (command === 'leave') break
+            }
+            case 'mulai': case 'start': {
+                if (m.isGroup) return reply('Features Cannot Be Used For Groups!')
+                this.anonymous = this.anonymous ? this.anonymous : {}
+                if (Object.values(this.anonymous).find(room => room.check(m.sender))) {
+                    let buttons = [
+                        { buttonId: 'keluar', buttonText: { displayText: '🛑Stop🛑' }, type: 1 }
+                    ]
+                    await GojoMdNx.sendButtonText(m.chat, buttons, `\`\`\`You Are Still In An Anonymous Session, Press The Button Below To Terminate Your Anonymous Session\`\`\``, GojoMdNx.user.name, m)
+                    reply(false)
+                }
+                let room = Object.values(this.anonymous).find(room => room.state === 'WAITING' && !room.check(m.sender))
+                if (room) {
+                    let buttons = [
+                        { buttonId: 'next', buttonText: { displayText: '⏩Skip⏩' }, type: 1 },
+                        { buttonId: 'keluar', buttonText: { displayText: '🛑Stop🛑' }, type: 1 }
+                    ]
+                    await GojoMdNx.sendButtonText(room.a, buttons, `\`\`\`Successfully Found Partner, Now You Can Send Message\`\`\``, GojoMdNx.user.name, m)
+                    room.b = m.sender
+                    room.state = 'CHATTING'
+                    await GojoMdNx.sendButtonText(room.b, buttons, `\`\`\`Successfully Found Partner, Now You Can Send Message\`\`\``, GojoMdNx.user.name, m)
+                } else {
+                    let id = + new Date
+                    this.anonymous[id] = {
+                        id,
+                        a: m.sender,
+                        b: '',
+                        state: 'WAITING',
+                        check: function (who = '') {
+                            return [this.a, this.b].includes(who)
+                        },
+                        other: function (who = '') {
+                            return who === this.a ? this.b : who === this.b ? this.a : ''
+                        },
+                    }
+                    let buttons = [
+                        { buttonId: 'keluar', buttonText: { displayText: '🛑Stop🛑' }, type: 1 }
+                    ]
+                    await GojoMdNx.sendButtonText(m.chat, buttons, `\`\`\`Please Wait, Looking For A Partner\`\`\``, GojoMdNx.user.name, m)
+                }
+                break
+            }
+            case 'next': case 'lanjut': {
+                if (m.isGroup) return reply('Features Cannot Be Used For Groups!')
+                this.anonymous = this.anonymous ? this.anonymous : {}
+                let romeo = Object.values(this.anonymous).find(room => room.check(m.sender))
+                if (!romeo) {
+                    let buttons = [
+                        { buttonId: 'start', buttonText: { displayText: '🚶Start🚶' }, type: 1 }
+                    ]
+                    await GojoMdNx.sendButtonText(m.chat, buttons, `\`\`\`You Are Not In An Anonymous Session, Press The Button To Find A Partner\`\`\``)
+                    reply(false)
+                }
+                let other = romeo.other(m.sender)
+                if (other) await GojoMdNx.sendText(other, `\`\`\`Partner Has Left Anonymous Session\`\`\``, m)
+                delete this.anonymous[romeo.id]
+                let room = Object.values(this.anonymous).find(room => room.state === 'WAITING' && !room.check(m.sender))
+                if (room) {
+                    let buttons = [
+                        { buttonId: 'next', buttonText: { displayText: '⏩Skip⏩' }, type: 1 },
+                        { buttonId: 'keluar', buttonText: { displayText: '🛑Stop🛑' }, type: 1 }
+                    ]
+                    await GojoMdNx.sendButtonText(room.a, buttons, `\`\`\`Successfully Found Partner, Now You Can Send Message\`\`\``, GojoMdNx.user.name, m)
+                    room.b = m.sender
+                    room.state = 'CHATTING'
+                    await GojoMdNx.sendButtonText(room.b, buttons, `\`\`\`Successfully Found Partner, Now You Can Send Message\`\`\``, GojoMdNx.user.name, m)
+                } else {
+                    let id = + new Date
+                    this.anonymous[id] = {
+                        id,
+                        a: m.sender,
+                        b: '',
+                        state: 'WAITING',
+                        check: function (who = '') {
+                            return [this.a, this.b].includes(who)
+                        },
+                        other: function (who = '') {
+                            return who === this.a ? this.b : who === this.b ? this.a : ''
+                        },
+                    }
+                    let buttons = [
+                        { buttonId: 'keluar', buttonText: { displayText: '🛑Stop🛑' }, type: 1 }
+                    ]
+                    await GojoMdNx.sendButtonText(m.chat, buttons, `\`\`\`Please Wait, Looking For A Partner\`\`\``, GojoMdNx.user.name, m)
+                }
+                break
             }
             case 'public': {
                 if (!isCreator) return replay(`${mess.owner}`)
@@ -2217,7 +2334,7 @@ case 'allmenu': {
 📘විධානය: yt [query]
 📘විධානය: video [query]
 📘විධානය: google [query]
-📘විධානය: gimage [query]
+📘විධානය: img [query]
 📘විධානය: pinterest [query]
 📘විධානය: wallpaper [query]
 📘විධානය: wikimedia [query]
@@ -2450,7 +2567,7 @@ await GojoMdNx.send5ButImg(from, `` + '' + ' ', `
 ┃╠${prefix}yt [query]
 ┃╠${prefix}video [query]
 ┃╠${prefix}google [query]
-┃╠${prefix}gimage [query]
+┃╠${prefix}img [query]
 ┃╠${prefix}pinterest [query]
 ┃╠${prefix}wallpaper [query]
 ┃╠${prefix}wikimedia [query]
