@@ -2265,7 +2265,7 @@ case 'allmenu': {
 📖විස්තරය: අයිතිකරුගේ අංකය ගැනීමට
 
 📘විධානය: menu
-📖විස්තරය:
+📘විධානය: 
 
 📘විධානය: delete
 📖විස්තරය:
@@ -2290,155 +2290,425 @@ case 'allmenu': {
 
 *┃╠══✪「 OWNER 」 ☯︎*
 📘විධානය: chat [option]
+📖විස්තරය: 
+
 📘විධානය: join [link]
+📖විස්තරය:
+
 📘විධානය: leave
+📖විස්තරය:
+
 📘විධානය: block [user]
+📖විස්තරය:
+
 📘විධානය: unblock [user]
+📖විස්තරය:
+
 📘විධානය: bcgroup [text]
+📖විස්තරය:
+
 📘විධානය: bcall [text]
+📖විස්තරය:
+
 📘විධානය: setppbot [image]
+📖විස්තරය:
+
 📘විධානය: setexif
+📖විස්තරය:
 
 ┃╠══✪「 GROUP 」 ☯︎      
 📘විධානය: grouplink
+📖විස්තරය:
+
 📘විධානය: ephemeral [option]
+📖විස්තරය:
+
 📘විධානය: setgcpp [image]
+📖විස්තරය:
+
 📘විධානය: setname [text]
+📖විස්තරය:
+
 📘විධානය: setdesc [text]
+📖විස්තරය:
+
 📘විධානය: group [text]
+📖විස්තරය:
+
 📘විධානය: editinfo [option]
+📖විස්තරය:
+
 📘විධානය: add [user]
+📖විස්තරය:
+
 📘විධානය: kick [reply/tag]
+📖විස්තරය:
+
 📘විධානය: hidetag [text]
+📖විස්තරය:
+
 📘විධානය: tagall [text]
+📖විස්තරය:
+
 📘විධානය: antilink [on/off]
+📖විස්තරය:
+
 📘විධානය: mute [on/off]
+📖විස්තරය:
+
 📘විධානය: promote [reply/tag]
+📖විස්තරය:
+
 📘විධානය: demote [reply/tag]
+📖විස්තරය:
+
 📘විධානය: vote
+📖විස්තරය:
+
 📘විධානය: devote
+📖විස්තරය:
+
 📘විධානය: upvote
+📖විස්තරය:
+
 📘විධානය: checkvote
+📖විස්තරය:
+
 📘විධානය: delvote
+📖විස්තරය:
 
 ┃╠═✪「 DOWNLOADER 」☯︎
 📘විධානය: ytmp3 [url|quality]
+📖විස්තරය:
+
 📘විධානය: ytmp4 [url|quality]
+📖විස්තරය:
+
 📘විධානය: umma [query]
+📖විස්තරය:
+
 📘විධානය: joox [query]
+📖විස්තරය:
+
 📘විධානය: soundcloud [url]
+📖විස්තරය:
 
 ┃╠══✪「 SEARCHER 」 ☯︎
 📘විධානය: play [query]
+📖විස්තරය:
+
 📘විධානය: song [query]
+📖විස්තරය:
+
 📘විධානය: yt [query]
+📖විස්තරය:
+
 📘විධානය: video [query]
+📖විස්තරය:
+
 📘විධානය: google [query]
+📖විස්තරය:
+
 📘විධානය: img [query]
+📖විස්තරය:
+
 📘විධානය: pinterest [query]
+📖විස්තරය:
+
 📘විධානය: wallpaper [query]
+📖විස්තරය:
+
 📘විධානය: wikimedia [query]
+📖විස්තරය:
+
 📘විධානය: ytsearch [query]
+📖විස්තරය:
+
 📘විධානය: ringtone [query]
+📖විස්තරය:
+
 📘විධානය: webtoon [query]
+📖විස්තරය:
 
 ┃╠══✪「 RANDOM 」☯︎
-┃╠${prefix}coffee
-┃╠${prefix}couplepp
+📘විධානය: coffee
+📖විස්තරය:
+
+📘විධානය: couplepp
+📖විස්තරය:
+
 ┃╠═✪「 RANDOM ANIME 」☯︎
-┃╠${prefix}loli
-┃╠${prefix}bully
-┃╠${prefix}cuddle
-┃╠${prefix}cry
-┃╠${prefix}hug
-┃╠${prefix}awoo
-┃╠${prefix}kiss
-┃╠${prefix}lick
-┃╠${prefix}pat
-┃╠${prefix}smug
-┃╠${prefix}bonk
-┃╠${prefix}yeet
-┃╠${prefix}blush
-┃╠${prefix}smile
-┃╠${prefix}wave
-┃╠${prefix}highfive
-┃╠${prefix}handhold
-┃╠${prefix}nom
-┃╠${prefix}glomp
-┃╠${prefix}bite
-┃╠${prefix}slap
-┃╠${prefix}kill
-┃╠${prefix}happy
-┃╠${prefix}wink
-┃╠${prefix}poke
-┃╠${prefix}dance
-┃╠${prefix}cringe
+📘විධානය: loli
+📖විස්තරය:
+
+📘විධානය: bully
+📖විස්තරය:
+
+📘විධානය: cuddle
+📖විස්තරය:
+
+📘විධානය: cry
+📖විස්තරය:
+
+📘විධානය: hug
+📖විස්තරය:
+
+📘විධානය: awoo
+📖විස්තරය:
+
+📘විධානය: kiss
+📖විස්තරය:
+
+📘විධානය: lick
+📖විස්තරය:
+
+📘විධානය: pat
+📖විස්තරය:
+
+📘විධානය: smug
+📖විස්තරය:
+
+📘විධානය: bonk
+📖විස්තරය:
+
+📘විධානය: yeet
+📖විස්තරය:
+
+📘විධානය: blush
+📖විස්තරය:
+
+📘විධානය: smile
+📖විස්තරය:
+
+📘විධානය: wave
+📖විස්තරය:
+
+📘විධානය: highfive
+📖විස්තරය:
+
+📘විධානය: handhold
+📖විස්තරය:
+
+📘විධානය: nom
+📖විස්තරය:
+
+📘විධානය: glomp
+📖විස්තරය:
+
+📘විධානය: bite
+📖විස්තරය:
+
+📘විධානය: slap
+📖විස්තරය:
+
+📘විධානය: kill
+📖විස්තරය:
+
+📘විධානය: happy
+📖විස්තරය:
+
+📘විධානය: wink
+📖විස්තරය:
+
+📘විධානය: poke
+📖විස්තරය:
+
+📘විධානය: dance
+📖විස්තරය:
+
+📘විධානය: cringe
+📖විස්තරය:
+
 ┃╠═══✪「 CONVERTER 」 ☯︎
-┃╠ ${prefix}toimage [reply stick]
-┃╠ ${prefix}sticker [reply img|gif]
-┃╠ ${prefix}emojimix [moji+moji]
-┃╠ ${prefix}tovideo [reply img]
-┃╠ ${prefix}togif [reply stick]
-┃╠ ${prefix}tourl [reply img]
-┃╠ ${prefix}tovn [reply aud]
-┃╠ ${prefix}tomp3 [reply vn]
-┃╠ ${prefix}toaudio [reply vid]
-┃╠ ${prefix}ebinary [reply txt]
-┃╠ ${prefix}dbinary [reply txt]
-┃╠ ${prefix}styletext [text]
+📘විධානය: toimage [reply stick]
+📖විස්තරය:
+
+📘විධානය: sticker [reply img|gif]
+📖විස්තරය:
+
+📘විධානය: emojimix [moji+moji]
+📖විස්තරය:
+
+📘විධානය: tovideo [reply img]
+📖විස්තරය:
+
+📘විධානය: togif [reply stick]
+📖විස්තරය:
+
+📘විධානය: tourl [reply img]
+📖විස්තරය:
+
+📘විධානය: tovn [reply aud]
+📖විස්තරය:
+
+📘විධානය: tomp3 [reply vn]
+📖විස්තරය:
+
+📘විධානය: toaudio [reply vid]
+📖විස්තරය:
+
+📘විධානය: ebinary [reply txt]
+📖විස්තරය:
+
+📘විධානය: dbinary [reply txt]
+📖විස්තරය:
+
+📘විධානය: styletext [text]
+📖විස්තරය:
+
 ┃╠══✪「 DATABASE 」 ☯︎
-┃╠ ${prefix}setcmd
-┃╠ ${prefix}listcmd
-┃╠ ${prefix}delcmd
-┃╠ ${prefix}lockcmd
-┃╠ ${prefix}addmsg
-┃╠ ${prefix}listmsg
-┃╠ ${prefix}getmsg
-┃╠ ${prefix}delmsg
+📘විධානය: setcmd
+📖විස්තරය:
+
+📘විධානය: listcmd
+📖විස්තරය:
+
+📘විධානය: delcmd
+📖විස්තරය:
+
+📘විධානය: lockcmd
+📖විස්තරය:
+
+📘විධානය: addmsg
+📖විස්තරය:
+
+📘විධානය: listmsg
+📖විස්තරය:
+
+📘විධානය: getmsg
+📖විස්තරය:
+
+📘විධානය: delmsg
+📖විස්තරය:
+
 ┃╔═✪「 TEXT PRO 」☯︎	        
-┃╠ ${prefix}3dchristmas [txt]
-┃╠ ${prefix}3ddeepsea [txt]
-┃╠ ${prefix}americanflag [txt]
-┃╠ ${prefix}3dscifi [txt]
-┃╠ ${prefix}3drainbow [txt]
-┃╠ ${prefix}3dwaterpipe [txt]
-┃╠ ${prefix}halloweenskeleton [txt]
-┃╠ ${prefix}sketch [txt]
-┃╠ ${prefix}bluecircuit [txt]
-┃╠ ${prefix}space [txt]
-┃╠ ${prefix}metallic [txt]
-┃╠ ${prefix}fiction [txt]
-┃╠ ${prefix}greenhorror [txt]
-┃╠ ${prefix}transformer [txt]
-┃╠ ${prefix}berry [txt]
-┃╠ ${prefix}thunder [txt]
-┃╠ ${prefix}magma [txt]
-┃╠ ${prefix}3dcrackedstone [txt]
-┃╠ ${prefix}3dneonlight [txt]
-┃╠ ${prefix}impressiveglitch [txt]
-┃╠ ${prefix}naturalleaves [txt]
-┃╠ ${prefix}fireworksparkle [txt]
-┃╠ ${prefix}matrix [txt]
-┃╠ ${prefix}dropwater [txt]
-┃╠ ${prefix}harrypotter [txt]
-┃╠ ${prefix}foggywindow [txt]
-┃╠ ${prefix}neondevils [txt]
-┃╠ ${prefix}christmasholiday [txt]
-┃╠ ${prefix}3dgradient [txt]
-┃╠ ${prefix}blackpink [txt]
-┃╠ ${prefix}gluetext [txt]
+📘විධානය: 3dchristmas [txt]
+📖විස්තරය:
+
+📘විධානය: 3ddeepsea [txt]
+📖විස්තරය:
+
+📘විධානය: americanflag [txt]
+📖විස්තරය:
+
+📘විධානය: 3dscifi [txt]
+📖විස්තරය:
+
+📘විධානය: 3drainbow [txt]
+📖විස්තරය:
+
+📘විධානය: 3dwaterpipe [txt]
+📖විස්තරය:
+
+📘විධානය: halloweenskeleton [txt]
+📖විස්තරය:
+
+📘විධානය: sketch [txt]
+📖විස්තරය:
+
+📘විධානය: bluecircuit [txt]
+📖විස්තරය:
+
+📘විධානය: space [txt]
+📖විස්තරය:
+
+📘විධානය: metallic [txt]
+📖විස්තරය:
+
+📘විධානය: fiction [txt]
+📖විස්තරය:
+
+📘විධානය: greenhorror [txt]
+📖විස්තරය:
+
+📘විධානය: transformer [txt]
+📖විස්තරය:
+
+📘විධානය: berry [txt]
+📖විස්තරය:
+
+📘විධානය: thunder [txt]
+📖විස්තරය:
+
+📘විධානය: magma [txt]
+📖විස්තරය:
+
+📘විධානය: 3dcrackedstone [txt]
+📖විස්තරය:
+
+📘විධානය: 3dneonlight [txt]
+📖විස්තරය:
+
+📘විධානය: impressiveglitch [txt]
+📖විස්තරය:
+
+📘විධානය: naturalleaves [txt]
+📖විස්තරය:
+
+📘විධානය: fireworksparkle [txt]
+📖විස්තරය:
+
+📘විධානය: matrix [txt]
+📖විස්තරය:
+
+📘විධානය: dropwater [txt]
+📖විස්තරය:
+
+📘විධානය: harrypotter [txt]
+📖විස්තරය:
+
+📘විධානය: foggywindow [txt]
+📖විස්තරය:
+
+📘විධානය: neondevils [txt]
+📖විස්තරය:
+
+📘විධානය: christmasholiday [txt]
+📖විස්තරය:
+
+📘විධානය: 3dgradient [txt]
+📖විස්තරය:
+
+📘විධානය: blackpink [txt]
+📖විස්තරය:
+
+📘විධානය: gluetext [txt]
+📖විස්තරය:
+
 ┃╠═✪「 VOICE CHANGER 」☯︎
-┃╠${prefix}bass [reply aud]
-┃╠${prefix}blown [reply aud]
-┃╠${prefix}deep [reply aud]
-┃╠${prefix}earrape [reply aud]
-┃╠${prefix}fast [reply aud]
-┃╠${prefix}fat [reply aud]
-┃╠${prefix}nightcore [reply aud]
-┃╠${prefix}reverse [reply aud]
-┃╠${prefix}robot [reply aud]
-┃╠${prefix}slow [reply aud]
-┃╠${prefix}squirrel [reply aud]
+
+📘විධානය: bass [reply aud]
+📖විස්තරය:
+
+📘විධානය: blown [reply aud]
+📖විස්තරය:
+
+📘විධානය: deep [reply aud]
+📖විස්තරය:
+
+📘විධානය: earrape [reply aud]
+📖විස්තරය:
+
+📘විධානය: fast [reply aud]
+📖විස්තරය:
+
+📘විධානය: fat [reply aud]
+📖විස්තරය:
+
+📘විධානය: nightcore [reply aud]
+📖විස්තරය:
+
+📘විධානය: reverse [reply aud]
+📖විස්තරය:
+
+📘විධානය: robot [reply aud]
+📖විස්තරය:
+
+📘විධානය: slow [reply aud]
+📖විස්තරය:
+
+📘විධානය: squirrel [reply aud]
+📖විස්තරය:
 ┃╚═══════✍︎BS TECH
 ┗━「 *Created By ${ownername}*  𖠌」━⭓`
     const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
@@ -2470,19 +2740,44 @@ var unicorn = await getBuffer(picak+'Main Menu')
 await GojoMdNx.send5ButImg(from, `` + '' + ' ', `
 ┏━「 ${botname} 」━━⭓ 
 ┃╔═✪「 MAIN 」
-┃╠ ${prefix}alive
-┃╠ ${prefix}script
-┃╠ ${prefix}speedtest
-┃╠ ${prefix}ping
-┃╠ ${prefix}owner
-┃╠ ${prefix}menu
-┃╠ ${prefix}delete
-┃╠ ${prefix}chatinfo
-┃╠ ${prefix}quoted
-┃╠ ${prefix}listpc
-┃╠ ${prefix}listgc
-┃╠ ${prefix}donate
-┃╠ ${prefix}report [bug]
+📘විධානය: alive
+📖විස්තරය: Bot Online දැයි බැලීමට
+
+📘විධානය: script
+📖විස්තරය: Bot Script එක බැලීමට
+
+📘විධානය: speedtest
+📖විස්තරය: වේගය බැලීමට
+
+📘විධානය: ping
+📖විස්තරය: ping එක මැනීමට
+
+📘විධානය: owner
+📖විස්තරය: අයිතිකරුගේ අංකය ගැනීමට
+
+📘විධානය: menu
+📘විධානය: 
+
+📘විධානය: delete
+📖විස්තරය:
+
+📘විධානය: chatinfo
+📖විස්තරය:
+
+📘විධානය: quoted
+📖විස්තරය:
+
+📘විධානය: listpc
+📖විස්තරය:
+
+📘විධානය: listgc
+📖විස්තරය:
+
+📘විධානය: donate
+📖විස්තරය:
+
+📘විධානය: report [Bug]
+📖විස්තරය:
 ┃╚═════════════✪
 ┗━━「 ${pushname} 」━⭓`,unicorn, [{"urlButton": {"displayText": "YouTube 📍","url": `${myweb}`}},{"urlButton": {"displayText": "Script🔖","url": `${sc}`}},{"quickReplyButton": {"displayText": "🍜Donate🍜","id": 'donate'}},{"quickReplyButton": {"displayText": "👤Owner👤","id": 'owner'}}] )
 break
@@ -2492,26 +2787,65 @@ var unicorn = await getBuffer(picak+'Group Menu')
 await GojoMdNx.send5ButImg(from, `` + '' + ' ', `
 ┏━「 ${botname} 」━━⭓ 
 ┃╔═✪「 GROUP 」	        
-┃╠${prefix}grouplink
-┃╠${prefix}ephemeral [option]
-┃╠${prefix}setgcpp [image]
-┃╠${prefix}setname [text]
-┃╠${prefix}setdesc [text]
-┃╠${prefix}group [text]
-┃╠${prefix}editinfo [option]
-┃╠${prefix}add [user]
-┃╠${prefix}kick [reply/tag]
-┃╠${prefix}hidetag [text]
-┃╠${prefix}tagall [text]
-┃╠${prefix}antilink [on/off]
-┃╠${prefix}mute [on/off]
-┃╠${prefix}promote [reply/tag]
-┃╠${prefix}demote [reply/tag]
-┃╠${prefix}vote
-┃╠${prefix}devote
-┃╠${prefix}upvote
-┃╠${prefix}checkvote
-┃╠${prefix}delvote
+📘විධානය: grouplink
+📖විස්තරය:
+
+📘විධානය: ephemeral [option]
+📖විස්තරය:
+
+📘විධානය: setgcpp [image]
+📖විස්තරය:
+
+📘විධානය: setname [text]
+📖විස්තරය:
+
+📘විධානය: setdesc [text]
+📖විස්තරය:
+
+📘විධානය: group [text]
+📖විස්තරය:
+
+📘විධානය: editinfo [option]
+📖විස්තරය:
+
+📘විධානය: add [user]
+📖විස්තරය:
+
+📘විධානය: kick [reply/tag]
+📖විස්තරය:
+
+📘විධානය: hidetag [text]
+📖විස්තරය:
+
+📘විධානය: tagall [text]
+📖විස්තරය:
+
+📘විධානය: antilink [on/off]
+📖විස්තරය:
+
+📘විධානය: mute [on/off]
+📖විස්තරය:
+
+📘විධානය: promote [reply/tag]
+📖විස්තරය:
+
+📘විධානය: demote [reply/tag]
+📖විස්තරය:
+
+📘විධානය: vote
+📖විස්තරය:
+
+📘විධානය: devote
+📖විස්තරය:
+
+📘විධානය: upvote
+📖විස්තරය:
+
+📘විධානය: checkvote
+📖විස්තරය:
+
+📘විධානය: delvote
+📖විස්තරය:
 ┃╚═════════════✪
 ┗━━「 ${pushname} 」━⭓`,unicorn, [{"urlButton": {"displayText": "YouTube📍","url": `${myweb}`}},{"urlButton": {"displayText": "Script🔖","url": `${sc}`}},{"quickReplyButton": {"displayText": "🍜Donate🍜","id": 'donate'}},{"quickReplyButton": {"displayText": "👤Owner👤","id": 'owner'}}] )
 break
@@ -2521,26 +2855,32 @@ var unicorn = await getBuffer(picak+'Owner Menu')
 await GojoMdNx.send5ButImg(from, `` + '' + ' ', `
 ┏━「 ${botname} 」━━⭓ 
 ┃╔═✪「 OWNER 」	        
-┃╠${prefix}grouplink
-┃╠${prefix}ephemeral [option]
-┃╠${prefix}setgcpp [image]
-┃╠${prefix}setname [text]
-┃╠${prefix}setdesc [text]
-┃╠${prefix}group [text]
-┃╠${prefix}editinfo [option]
-┃╠${prefix}add [user]
-┃╠${prefix}kick [reply/tag]
-┃╠${prefix}hidetag [text]
-┃╠${prefix}tagall [text]
-┃╠${prefix}antilink [on/off]
-┃╠${prefix}mute [on/off]
-┃╠${prefix}promote [reply/tag]
-┃╠${prefix}demote [reply/tag]
-┃╠${prefix}vote
-┃╠${prefix}devote
-┃╠${prefix}upvote
-┃╠${prefix}checkvote
-┃╠${prefix}delvote
+📘විධානය: chat [option]
+📖විස්තරය: 
+
+📘විධානය: join [link]
+📖විස්තරය:
+
+📘විධානය: leave
+📖විස්තරය:
+
+📘විධානය: block [user]
+📖විස්තරය:
+
+📘විධානය: unblock [user]
+📖විස්තරය:
+
+📘විධානය: bcgroup [text]
+📖විස්තරය:
+
+📘විධානය: bcall [text]
+📖විස්තරය:
+
+📘විධානය: setppbot [image]
+📖විස්තරය:
+
+📘විධානය: setexif
+📖විස්තරය:
 ┃╚═════════════✪
 ┗━━「 ${pushname} 」━⭓`,unicorn, [{"urlButton": {"displayText": "YouTube📍","url": `${myweb}`}},{"urlButton": {"displayText": "Script🔖","url": `${sc}`}},{"quickReplyButton": {"displayText": "🍜Donate🍜","id": 'donate'}},{"quickReplyButton": {"displayText": "👤Owner👤","id": 'owner'}}] )
 break
@@ -2549,11 +2889,21 @@ var unicorn = await getBuffer(picak+'Downloader Menu')
 await GojoMdNx.send5ButImg(from, `` + '' + ' ', `
 ┏━「 ${botname} 」━━⭓ 
 ┃╔═✪「 DOWNLOADER 」	        
-┃╠${prefix}ytmp3 [url|quality]
-┃╠${prefix}ytmp4 [url|quality]
-┃╠${prefix}umma [query]
-┃╠${prefix}joox [query]
-┃╠${prefix}soundcloud [url]
+📘විධානය: ytmp3 [url|quality]
+📖විස්තරය:
+
+📘විධානය: ytmp4 [url|quality]
+📖විස්තරය:
+
+📘විධානය: umma [query]
+📖විස්තරය:
+
+📘විධානය: joox [query]
+📖විස්තරය:
+
+📘විධානය: soundcloud [url]
+📖විස්තරය:
+
 ┃╚═════════════✪
 ┗━━「 ${pushname} 」━⭓`,unicorn, [{"urlButton": {"displayText": "YouTube📍","url": `${myweb}`}},{"urlButton": {"displayText": "Script🔖","url": `${sc}`}},{"quickReplyButton": {"displayText": "🍜Donate🍜","id": 'donate'}},{"quickReplyButton": {"displayText": "👤Owner👤","id": 'owner'}}] )
 break
@@ -2562,18 +2912,42 @@ var unicorn = await getBuffer(picak+'Search Menu')
 await GojoMdNx.send5ButImg(from, `` + '' + ' ', `
 ┏━「 ${botname} 」━━⭓ 
 ┃╔══✪「 SEARCHER 」	        
-┃╠${prefix}play [query]
-┃╠${prefix}song [query]
-┃╠${prefix}yt [query]
-┃╠${prefix}video [query]
-┃╠${prefix}google [query]
-┃╠${prefix}img [query]
-┃╠${prefix}pinterest [query]
-┃╠${prefix}wallpaper [query]
-┃╠${prefix}wikimedia [query]
-┃╠${prefix}ytsearch [query]
-┃╠${prefix}ringtone [query]
-┃╠${prefix}webtoon [query]
+📘විධානය: play [query]
+📖විස්තරය:
+
+📘විධානය: song [query]
+📖විස්තරය:
+
+📘විධානය: yt [query]
+📖විස්තරය:
+
+📘විධානය: video [query]
+📖විස්තරය:
+
+📘විධානය: google [query]
+📖විස්තරය:
+
+📘විධානය: img [query]
+📖විස්තරය:
+
+📘විධානය: pinterest [query]
+📖විස්තරය:
+
+📘විධානය: wallpaper [query]
+📖විස්තරය:
+
+📘විධානය: wikimedia [query]
+📖විස්තරය:
+
+📘විධානය: ytsearch [query]
+📖විස්තරය:
+
+📘විධානය: ringtone [query]
+📖විස්තරය:
+
+📘විධානය: webtoon [query]
+📖විස්තරය:
+
 ┃╚═════════════✪
 ┗━━「 ${pushname} 」━⭓`,unicorn, [{"urlButton": {"displayText": "YouTube📍","url": `${myweb}`}},{"urlButton": {"displayText": "Script🔖","url": `${sc}`}},{"quickReplyButton": {"displayText": "🍜Donate🍜","id": 'donate'}},{"quickReplyButton": {"displayText": "👤Owner👤","id": 'owner'}}] )
 break
@@ -2582,8 +2956,11 @@ var unicorn = await getBuffer(picak+'Random Menu')
 await GojoMdNx.send5ButImg(from, `` + '' + ' ', `
 ┏━「 ${botname} 」━━⭓ 
 ┃╔══✪「 RANDOM 」	        
-┃╠${prefix}coffee
-┃╠${prefix}couplepp
+📘විධානය: coffee
+📖විස්තරය:
+
+📘විධානය: couplepp
+📖විස්තරය:
 ┃╚═════════════✪
 ┗━━「 ${pushname} 」━⭓`,unicorn, [{"urlButton": {"displayText": "YouTube📍","url": `${myweb}`}},{"urlButton": {"displayText": "Script🔖","url": `${sc}`}},{"quickReplyButton": {"displayText": "🍜Donate🍜","id": 'donate'}},{"quickReplyButton": {"displayText": "👤Owner👤","id": 'owner'}}] )
 break
@@ -2592,33 +2969,87 @@ var unicorn = await getBuffer(picak+'Random Anime Menu')
 await GojoMdNx.send5ButImg(from, `` + '' + ' ', `
 ┏━「 ${botname} 」━━⭓ 
 ┃╔✪「 RANDOM ANIME 」	        
-┃╠${prefix}loli
-┃╠${prefix}bully
-┃╠${prefix}cuddle
-┃╠${prefix}cry
-┃╠${prefix}hug
-┃╠${prefix}awoo
-┃╠${prefix}kiss
-┃╠${prefix}lick
-┃╠${prefix}pat
-┃╠${prefix}smug
-┃╠${prefix}bonk
-┃╠${prefix}yeet
-┃╠${prefix}blush
-┃╠${prefix}smile
-┃╠${prefix}wave
-┃╠${prefix}highfive
-┃╠${prefix}handhold
-┃╠${prefix}nom
-┃╠${prefix}glomp
-┃╠${prefix}bite
-┃╠${prefix}slap
-┃╠${prefix}kill
-┃╠${prefix}happy
-┃╠${prefix}wink
-┃╠${prefix}poke
-┃╠${prefix}dance
-┃╠${prefix}cringe
+📘විධානය: loli
+📖විස්තරය:
+
+📘විධානය: bully
+📖විස්තරය:
+
+📘විධානය: cuddle
+📖විස්තරය:
+
+📘විධානය: cry
+📖විස්තරය:
+
+📘විධානය: hug
+📖විස්තරය:
+
+📘විධානය: awoo
+📖විස්තරය:
+
+📘විධානය: kiss
+📖විස්තරය:
+
+📘විධානය: lick
+📖විස්තරය:
+
+📘විධානය: pat
+📖විස්තරය:
+
+📘විධානය: smug
+📖විස්තරය:
+
+📘විධානය: bonk
+📖විස්තරය:
+
+📘විධානය: yeet
+📖විස්තරය:
+
+📘විධානය: blush
+📖විස්තරය:
+
+📘විධානය: smile
+📖විස්තරය:
+
+📘විධානය: wave
+📖විස්තරය:
+
+📘විධානය: highfive
+📖විස්තරය:
+
+📘විධානය: handhold
+📖විස්තරය:
+
+📘විධානය: nom
+📖විස්තරය:
+
+📘විධානය: glomp
+📖විස්තරය:
+
+📘විධානය: bite
+📖විස්තරය:
+
+📘විධානය: slap
+📖විස්තරය:
+
+📘විධානය: kill
+📖විස්තරය:
+
+📘විධානය: happy
+📖විස්තරය:
+
+📘විධානය: wink
+📖විස්තරය:
+
+📘විධානය: poke
+📖විස්තරය:
+
+📘විධානය: dance
+📖විස්තරය:
+
+📘විධානය: cringe
+📖විස්තරය:
+
 ┃╚═════════════✪
 ┗━━「 ${pushname} 」━⭓`,unicorn, [{"urlButton": {"displayText": "YouTube📍","url": `${myweb}`}},{"urlButton": {"displayText": "Script🔖","url": `${sc}`}},{"quickReplyButton": {"displayText": "🍜Donate🍜","id": 'donate'}},{"quickReplyButton": {"displayText": "👤Owner👤","id": 'owner'}}] )
 break
@@ -2627,37 +3058,98 @@ var unicorn = await getBuffer(picak+'Text Pro Menu')
 await GojoMdNx.send5ButImg(from, `` + '' + ' ', `
 ┏━「 ${botname} 」━━⭓ 
 ┃╔═✪「 TEXT PRO 」	        
-┃╠ ${prefix}3dchristmas [txt]
-┃╠ ${prefix}3ddeepsea [txt]
-┃╠ ${prefix}americanflag [txt]
-┃╠ ${prefix}3dscifi [txt]
-┃╠ ${prefix}3drainbow [txt]
-┃╠ ${prefix}3dwaterpipe [txt]
-┃╠ ${prefix}halloweenskeleton [txt]
-┃╠ ${prefix}sketch [txt]
-┃╠ ${prefix}bluecircuit [txt]
-┃╠ ${prefix}space [txt]
-┃╠ ${prefix}metallic [txt]
-┃╠ ${prefix}fiction [txt]
-┃╠ ${prefix}greenhorror [txt]
-┃╠ ${prefix}transformer [txt]
-┃╠ ${prefix}berry [txt]
-┃╠ ${prefix}thunder [txt]
-┃╠ ${prefix}magma [txt]
-┃╠ ${prefix}3dcrackedstone [txt]
-┃╠ ${prefix}3dneonlight [txt]
-┃╠ ${prefix}impressiveglitch [txt]
-┃╠ ${prefix}naturalleaves [txt]
-┃╠ ${prefix}fireworksparkle [txt]
-┃╠ ${prefix}matrix [txt]
-┃╠ ${prefix}dropwater [txt]
-┃╠ ${prefix}harrypotter [txt]
-┃╠ ${prefix}foggywindow [txt]
-┃╠ ${prefix}neondevils [txt]
-┃╠ ${prefix}christmasholiday [txt]
-┃╠ ${prefix}3dgradient [txt]
-┃╠ ${prefix}blackpink [txt]
-┃╠ ${prefix}gluetext [txt]
+📘විධානය: 3dchristmas [txt]
+📖විස්තරය:
+
+📘විධානය: 3ddeepsea [txt]
+📖විස්තරය:
+
+📘විධානය: americanflag [txt]
+📖විස්තරය:
+
+📘විධානය: 3dscifi [txt]
+📖විස්තරය:
+
+📘විධානය: 3drainbow [txt]
+📖විස්තරය:
+
+📘විධානය: 3dwaterpipe [txt]
+📖විස්තරය:
+
+📘විධානය: halloweenskeleton [txt]
+📖විස්තරය:
+
+📘විධානය: sketch [txt]
+📖විස්තරය:
+
+📘විධානය: bluecircuit [txt]
+📖විස්තරය:
+
+📘විධානය: space [txt]
+📖විස්තරය:
+
+📘විධානය: metallic [txt]
+📖විස්තරය:
+
+📘විධානය: fiction [txt]
+📖විස්තරය:
+
+📘විධානය: greenhorror [txt]
+📖විස්තරය:
+
+📘විධානය: transformer [txt]
+📖විස්තරය:
+
+📘විධානය: berry [txt]
+📖විස්තරය:
+
+📘විධානය: thunder [txt]
+📖විස්තරය:
+
+📘විධානය: magma [txt]
+📖විස්තරය:
+
+📘විධානය: 3dcrackedstone [txt]
+📖විස්තරය:
+
+📘විධානය: 3dneonlight [txt]
+📖විස්තරය:
+
+📘විධානය: impressiveglitch [txt]
+📖විස්තරය:
+
+📘විධානය: naturalleaves [txt]
+📖විස්තරය:
+
+📘විධානය: fireworksparkle [txt]
+📖විස්තරය:
+
+📘විධානය: matrix [txt]
+📖විස්තරය:
+
+📘විධානය: dropwater [txt]
+📖විස්තරය:
+
+📘විධානය: harrypotter [txt]
+📖විස්තරය:
+
+📘විධානය: foggywindow [txt]
+📖විස්තරය:
+
+📘විධානය: neondevils [txt]
+📖විස්තරය:
+
+📘විධානය: christmasholiday [txt]
+📖විස්තරය:
+
+📘විධානය: 3dgradient [txt]
+📖විස්තරය:
+
+📘විධානය: blackpink [txt]
+📖විස්තරය:
+
+📘විධානය: gluetext [txt]
+📖විස්තරය:
 ┃╚═════════════✪
 ┗━━「 ${pushname} 」━⭓`,unicorn, [{"urlButton": {"displayText": "YouTube📍","url": `${myweb}`}},{"urlButton": {"displayText": "Script🔖","url": `${sc}`}},{"quickReplyButton": {"displayText": "🍜Donate🍜","id": 'donate'}},{"quickReplyButton": {"displayText": "👤Owner👤","id": 'owner'}}] )
 break
@@ -2666,17 +3158,42 @@ var unicorn = await getBuffer(picak+'Converter Menu')
 await GojoMdNx.send5ButImg(from, `` + '' + ' ', `
 ┏━「 ${botname} 」━━⭓ 
 ┃╔══✪「 CONVERTER 」	        
-┃╠ ${prefix}toimage [reply stick]
-┃╠ ${prefix}sticker [reply img|gif]
-┃╠ ${prefix}emojimix [moji+moji]
-┃╠ ${prefix}tovideo [reply img]
-┃╠ ${prefix}togif [reply stick]
-┃╠ ${prefix}tourl [reply media]
-┃╠ ${prefix}tovn [reply aud]
-┃╠ ${prefix}tomp3 [reply vn]
-┃╠ ${prefix}toaudio [reply vid]
-┃╠ ${prefix}ebinary [reply txt]
-┃╠ ${prefix}dbinary [reply txt]
+📘විධානය: toimage [reply stick]
+📖විස්තරය:
+
+📘විධානය: sticker [reply img|gif]
+📖විස්තරය:
+
+📘විධානය: emojimix [moji+moji]
+📖විස්තරය:
+
+📘විධානය: tovideo [reply img]
+📖විස්තරය:
+
+📘විධානය: togif [reply stick]
+📖විස්තරය:
+
+📘විධානය: tourl [reply img]
+📖විස්තරය:
+
+📘විධානය: tovn [reply aud]
+📖විස්තරය:
+
+📘විධානය: tomp3 [reply vn]
+📖විස්තරය:
+
+📘විධානය: toaudio [reply vid]
+📖විස්තරය:
+
+📘විධානය: ebinary [reply txt]
+📖විස්තරය:
+
+📘විධානය: dbinary [reply txt]
+📖විස්තරය:
+
+📘විධානය: styletext [text]
+📖විස්තරය:
+
 ┃╚═════════════✪
 ┗━━「 ${pushname} 」━⭓`,unicorn, [{"urlButton": {"displayText": "YouTube📍","url": `${myweb}`}},{"urlButton": {"displayText": "Script🔖","url": `${sc}`}},{"quickReplyButton": {"displayText": "🍜Donate🍜","id": 'donate'}},{"quickReplyButton": {"displayText": "👤Owner👤","id": 'owner'}}] )
 break
@@ -2684,15 +3201,29 @@ case 'databasemenu':
 var unicorn = await getBuffer(picak+'Database Menu')
 await GojoMdNx.send5ButImg(from, `` + '' + ' ', `
 ┏━「 ${botname} 」━━⭓ 
-┃╔═══✪「 DATABASE 」	        
-┃╠ ${prefix}setcmd
-┃╠ ${prefix}listcmd
-┃╠ ${prefix}delcmd
-┃╠ ${prefix}lockcmd
-┃╠ ${prefix}addmsg
-┃╠ ${prefix}listmsg
-┃╠ ${prefix}getmsg
-┃╠ ${prefix}delmsg
+📘විධානය: setcmd
+📖විස්තරය:
+
+📘විධානය: listcmd
+📖විස්තරය:
+
+📘විධානය: delcmd
+📖විස්තරය:
+
+📘විධානය: lockcmd
+📖විස්තරය:
+
+📘විධානය: addmsg
+📖විස්තරය:
+
+📘විධානය: listmsg
+📖විස්තරය:
+
+📘විධානය: getmsg
+📖විස්තරය:
+
+📘විධානය: delmsg
+📖විස්තරය:
 ┃╚═════════════✪
 ┗━━「 ${pushname} 」━⭓`,unicorn, [{"urlButton": {"displayText": "YouTube📍","url": `${myweb}`}},{"urlButton": {"displayText": "Script🔖","url": `${sc}`}},{"quickReplyButton": {"displayText": "🍜Donate🍜","id": 'donate'}},{"quickReplyButton": {"displayText": "👤Owner👤","id": 'owner'}}] )
 break
@@ -2702,17 +3233,38 @@ var unicorn = await getBuffer(picak+'Voice Changer Menu')
 await GojoMdNx.send5ButImg(from, `` + '' + ' ', `
 ┏━「 ${botname} 」━━⭓ 
 ┃╔══✪「 VOICE CHANGER 」	        
-┃╠${prefix}bass [reply aud]
-┃╠${prefix}blown [reply aud]
-┃╠${prefix}deep [reply aud]
-┃╠${prefix}earrape [reply aud]
-┃╠${prefix}fast [reply aud]
-┃╠${prefix}fat [reply aud]
-┃╠${prefix}nightcore [reply aud]
-┃╠${prefix}reverse [reply aud]
-┃╠${prefix}robot [reply aud]
-┃╠${prefix}slow [reply aud]
-┃╠${prefix}squirrel [reply aud]
+📘විධානය: bass [reply aud]
+📖විස්තරය:
+
+📘විධානය: blown [reply aud]
+📖විස්තරය:
+
+📘විධානය: deep [reply aud]
+📖විස්තරය:
+
+📘විධානය: earrape [reply aud]
+📖විස්තරය:
+
+📘විධානය: fast [reply aud]
+📖විස්තරය:
+
+📘විධානය: fat [reply aud]
+📖විස්තරය:
+
+📘විධානය: nightcore [reply aud]
+📖විස්තරය:
+
+📘විධානය: reverse [reply aud]
+📖විස්තරය:
+
+📘විධානය: robot [reply aud]
+📖විස්තරය:
+
+📘විධානය: slow [reply aud]
+📖විස්තරය:
+
+📘විධානය: squirrel [reply aud]
+📖විස්තරය:
 ┃╚═════════════✪
 ┗━━「 ${pushname} 」━⭓`,unicorn, [{"urlButton": {"displayText": "YouTube📍","url": `${myweb}`}},{"urlButton": {"displayText": "Script🔖","url": `${sc}`}},{"quickReplyButton": {"displayText": "🍜Donate🍜","id": 'donate'}},{"quickReplyButton": {"displayText": "👤Owner👤","id": 'owner'}}] )
 break
