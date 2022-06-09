@@ -19,18 +19,18 @@ global.APIKeys = {
 }
 
 //customize settings\\
-global.owner = ['94766866297']
-global.premium = ['94766866297']
-global.ownernomer = '94766866297'
-global.ownername = 'King Buddhika'
-global.botname = 'BS TECH Bot-Md'
-global.footer = '©KingBuddhika'
+global.owner = ['94712646220']
+global.premium = ['94712646220']
+global.ownernomer = '94779758024'
+global.ownername = 'RASADU SULAKSHA'
+global.botname = 'LION KING Bot-Md'
+global.footer = '©Rasadu'
 global.ig = 'https://github.com/KingBudddhika'
-global.region = 'Sri Lanka, Sabaragamuwa, Embilipitiya'
+global.region = 'Sri Lanka, Busnahira, Kaluthara'
 global.sc = 'https://github.com/KingBuddhika/Gojo-Satoru'
 global.myweb = 'https://youtube.com/channel/UCMiHCPhP2ktLlGOL9594VPA'
-global.packname = 'BS TECH Bot-Md'
-global.author = 'KingBuddhika'
+global.packname = 'LK Bot-Md'
+global.author = 'Rasadu Sulaksha'
 global.sessionName = 'session'
 global.prefa = ['','!','.','🐦','🐤','🗿']
 global.sp = '⭔'
