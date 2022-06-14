@@ -19,8 +19,8 @@ global.APIKeys = {
 }
 
 //customize settings\\
-global.owner = ['94712646220']
-global.premium = ['94712646220']
+global.owner = ['94779758024']
+global.premium = ['9477975824']
 global.ownernomer = '94779758024'
 global.ownername = 'RASADU SULAKSHA'
 global.botname = 'LION KING Bot-Md'
